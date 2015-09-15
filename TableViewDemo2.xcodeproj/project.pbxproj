@@ -14,6 +14,9 @@
 		072EA0A51BA89ACB00898694 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 072EA0A41BA89ACB00898694 /* Images.xcassets */; };
 		072EA0A81BA89ACB00898694 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 072EA0A61BA89ACB00898694 /* LaunchScreen.xib */; };
 		072EA0B41BA89ACB00898694 /* TableViewDemo2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 072EA0B31BA89ACB00898694 /* TableViewDemo2Tests.m */; };
+		072EA0C61BA89D5400898694 /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 072EA0C51BA89D5400898694 /* CollectionViewCell.m */; };
+		072EA0C91BA89DB900898694 /* objectFeed.m in Sources */ = {isa = PBXBuildFile; fileRef = 072EA0C81BA89DB900898694 /* objectFeed.m */; };
+		072EA0CF1BA8A03A00898694 /* CollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 072EA0CE1BA8A03A00898694 /* CollectionViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,12 @@
 		072EA0AD1BA89ACB00898694 /* TableViewDemo2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewDemo2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		072EA0B21BA89ACB00898694 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		072EA0B31BA89ACB00898694 /* TableViewDemo2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewDemo2Tests.m; sourceTree = "<group>"; };
+		072EA0C41BA89D5400898694 /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
+		072EA0C51BA89D5400898694 /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
+		072EA0C71BA89DB900898694 /* objectFeed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = objectFeed.h; sourceTree = "<group>"; };
+		072EA0C81BA89DB900898694 /* objectFeed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = objectFeed.m; sourceTree = "<group>"; };
+		072EA0CD1BA8A03A00898694 /* CollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewController.h; sourceTree = "<group>"; };
+		072EA0CE1BA8A03A00898694 /* CollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +95,7 @@
 				072EA09E1BA89ACB00898694 /* ViewController.h */,
 				072EA09F1BA89ACB00898694 /* ViewController.m */,
 				072EA0A11BA89ACB00898694 /* Main.storyboard */,
+				072EA0BD1BA89B9800898694 /* Cell */,
 				072EA0A41BA89ACB00898694 /* Images.xcassets */,
 				072EA0A61BA89ACB00898694 /* LaunchScreen.xib */,
 				072EA0971BA89ACB00898694 /* Supporting Files */,
@@ -117,6 +127,19 @@
 				072EA0B21BA89ACB00898694 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		072EA0BD1BA89B9800898694 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				072EA0C41BA89D5400898694 /* CollectionViewCell.h */,
+				072EA0C51BA89D5400898694 /* CollectionViewCell.m */,
+				072EA0C71BA89DB900898694 /* objectFeed.h */,
+				072EA0C81BA89DB900898694 /* objectFeed.m */,
+				072EA0CD1BA8A03A00898694 /* CollectionViewController.h */,
+				072EA0CE1BA8A03A00898694 /* CollectionViewController.m */,
+			);
+			name = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,8 +242,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				072EA0C91BA89DB900898694 /* objectFeed.m in Sources */,
 				072EA0A01BA89ACB00898694 /* ViewController.m in Sources */,
+				072EA0CF1BA8A03A00898694 /* CollectionViewController.m in Sources */,
 				072EA09D1BA89ACB00898694 /* AppDelegate.m in Sources */,
+				072EA0C61BA89D5400898694 /* CollectionViewCell.m in Sources */,
 				072EA09A1BA89ACB00898694 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

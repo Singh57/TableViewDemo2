@@ -25,10 +25,25 @@
     [super tearDown];
 }
 
-- (void)testExample {
-    // This is an example of a functional test case.
-    XCTAssert(YES, @"Pass");
+- (void)testNil{
+    XCTAssertNil(nil,@"its supposed to be nill");
 }
+
+- (void)testNotNil2{
+    XCTAssertNotNil(@"hello",@"its supposed to be nill");
+}
+
+-(void)testnilForTableClass{
+    TableViewDemo2Tests *tabl;
+    XCTAssertNil(tabl,@"its nill");
+    
+}
+
+-(void)testtableNotNil{
+    TableViewDemo2Tests *tablllle =[[TableViewDemo2Tests alloc]init];
+    XCTAssertNotNil(tablllle,@"its not nill though");
+}
+
 
 - (void)testPerformanceExample {
     // This is an example of a performance test case.
@@ -36,5 +51,12 @@
         // Put the code you want to measure the time of here.
     }];
 }
+-(void)testtableNotNil2{
+    TableViewDemo2Tests *tablllle =[[TableViewDemo2Tests alloc]init];
+    XCTAssertTrue(tablllle,@"its not nill though");
+}
+
+
+
 
 @end

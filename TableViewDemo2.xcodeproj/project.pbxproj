@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		071257E91BCE081400D5F76B /* TableTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 071257E81BCE081400D5F76B /* TableTest.m */; };
 		072EA09A1BA89ACB00898694 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 072EA0991BA89ACB00898694 /* main.m */; };
 		072EA09D1BA89ACB00898694 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 072EA09C1BA89ACB00898694 /* AppDelegate.m */; };
 		072EA0A01BA89ACB00898694 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 072EA09F1BA89ACB00898694 /* ViewController.m */; };
@@ -30,6 +31,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		071257E81BCE081400D5F76B /* TableTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableTest.m; sourceTree = "<group>"; };
 		072EA0941BA89ACB00898694 /* TableViewDemo2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewDemo2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		072EA0981BA89ACB00898694 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		072EA0991BA89ACB00898694 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -117,6 +119,7 @@
 			children = (
 				072EA0B31BA89ACB00898694 /* TableViewDemo2Tests.m */,
 				072EA0B11BA89ACB00898694 /* Supporting Files */,
+				071257E81BCE081400D5F76B /* TableTest.m */,
 			);
 			path = TableViewDemo2Tests;
 			sourceTree = "<group>";
@@ -255,6 +258,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				071257E91BCE081400D5F76B /* TableTest.m in Sources */,
 				072EA0B41BA89ACB00898694 /* TableViewDemo2Tests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -368,7 +372,6 @@
 		072EA0B81BA89ACB00898694 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TableViewDemo2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -378,7 +381,6 @@
 		072EA0B91BA89ACB00898694 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TableViewDemo2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -438,6 +440,7 @@
 				072EA0B91BA89ACB00898694 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		072EA0BA1BA89ACB00898694 /* Build configuration list for PBXNativeTarget "TableViewDemo2Tests" */ = {
 			isa = XCConfigurationList;
@@ -446,6 +449,7 @@
 				072EA0BC1BA89ACB00898694 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
